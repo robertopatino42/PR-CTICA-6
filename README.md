@@ -10,6 +10,17 @@ DESCRIPCIÓN
 
 La Esp32 la utilizamos en un entorno de adquision de datos pero en este caso utilizaremos el simulador WOKWI.
 
+MATERIAL NECESARIO
+
+WOKWI
+
+Tarjeta ESP 32
+
+HC-SR04 Ultrasonic Distance Sensor
+
+Instrucciones de preparación de entorno
+
+1- Abrir la terminal de programación y colocar la siguente programación:
 
 // defines pins numbers
 const int trigPin = 4;
@@ -94,3 +105,13 @@ Serial.print("Distance: ");
 Serial.println(distance);
 delay (2000);
 }
+
+2- Hacer la conexion de los sensores Ultrasonico con la ESP32 y los leds como se muestra en la siguente imagen.
+
+![Captura de pantalla 2024-01-19 183436](https://github.com/robertopatino42/PR-CTICA-6/assets/153964688/ac496a9a-f182-4139-9905-73432481643d)
+
+Resultados
+
+Cuando haya funcionado se visualizarán los valores dentro del monitor serial como se muestra en la siguente imagen.
+
+![Captura de pantalla 2024-01-19 183509](https://github.com/robertopatino42/PR-CTICA-6/assets/153964688/e8a8f68c-4879-44d8-97e9-19565e4864a4)

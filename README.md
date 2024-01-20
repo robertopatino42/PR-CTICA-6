@@ -1,5 +1,16 @@
 # PR-CTICA-6
 
+INDICADOR DE NIVEL DE AGUA
+
+Este repositorio muestra como podemos programar una ESP32 con el sensor Ultrasonico y conectar leds de manera que sirvan como un indicador visual del nivel de agua
+
+INTRODUCCIÓN
+
+DESCRIPCIÓN
+
+La Esp32 la utilizamos en un entorno de adquision de datos pero en este caso utilizaremos el simulador WOKWI.
+
+
 // defines pins numbers
 const int trigPin = 4;
 const int echoPin = 15;
